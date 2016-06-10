@@ -1,0 +1,129 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.input-field  label.active {
+    transform: translateY(-150%);
+    color: #F44336;
+}
+
+textarea {
+  border: 2px solid #26a69a;
+   
+ 
+}
+
+
+.logo-title{
+	text-transform: uppercase;
+	font-size: 14px;
+	 color: #ffffff;
+}
+
+.file-input-text-font{
+font-size: 12px;
+ 
+
+}
+
+#file-input-filename{
+	font-size: smaller;
+}
+
+#file-input-progress{
+	    width: 67%;
+}
+
+.file-path-wrapper{
+	 
+}
+
+
+#canvasusrmsg_cont{
+	 color: #F44336;
+   cursor: pointer;
+   //background-color: #474747;
+}
+#canvasusrmsg {}
+#canvasusrmsg_icon {}
+
+.footer-text{
+	  color: #666;
+}
+
+.ct-zoom-rect {
+    fill: rgba(200, 100, 100, 0.3);
+  stroke: red;
+}
+
+
+
+
+.ct-line.ct-threshold-above, .ct-point.ct-threshold-above, .ct-bar.ct-threshold-above {
+  
+  stroke: #59922b;
+}
+
+.ct-line.ct-threshold-below, .ct-point.ct-threshold-below, .ct-bar.ct-threshold-below {
+  stroke: #f05b4f;
+}
+
+.ct-area.ct-threshold-above {
+  fill: #59922b;
+}
+
+.ct-area.ct-threshold-below {
+  fill: #f05b4f;
+}
+
+
+#list-view{
+ font-size: 12px  ;
+ color:rgba(0,0,0,.4);
+}
+.collection .collection-item.avatar{
+ padding-left: 15px
+}
+
+.list-view-id { 
+  display: inline;
+    float: right;
+}
+
+.list-view-img img{
+    display: inline;
+    float: left;
+    /* padding-left: 0px; */
+  
+}
+.list-view-date { float: right;
+ margin-right: 5px;
+}
+.list-view-title { margin-left: 5px;
+ margin-right: 5px; color: rgba(0,0,0,0.87); 
+}
+.list-view-body { 
+ margin-right: 5px;
+}
+.list-view-win {     font-size: larger;
+  color:green;
+ margin-left: 5px;
+}
+.list-view-loss {      font-size: larger;   
+  color: #F44336;
+   margin-left: 5px;
+}
+
+ 
+
